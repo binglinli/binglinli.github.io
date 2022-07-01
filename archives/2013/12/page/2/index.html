@@ -1717,7 +1717,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.af2d54c8.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.d9437285.js","rightMenus":"/js/plugins/rightMenus.4d580c89.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.0e52f222.js"},"css":{"style":"/css/style.9a0ebb09.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1656651184821),
+    lastupdate: new Date(1656680366950),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -2137,7 +2137,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <!-- Custom Files bodyBegin begin-->
     
     <!-- Custom Files bodyBegin end-->
-    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur " style='opacity: 0' >
+    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur show" style='opacity: 0' >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -2546,7 +2546,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="half" class='cover-wrapper  dock' style="display: ;">
+      <div id="none" class='cover-wrapper  dock' style="display: none;">
         
   <div id="parallax-window"></div>
 
@@ -2563,10 +2563,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div class='list-h'>
         
           
-            <a href="/v4/getting-started/"
+            <a href="/docs/"
               
               
-              active-action="action-v4getting-started">
+              active-action="action-docs">
               <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f5c3.svg'><p>文档</p>
             </a>
           
@@ -2598,11 +2598,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f4f0.svg'><p>博客</p>
             </a>
           
-            <a target="_blank" rel="noopener" href="https://github.com/volantis-x/hexo-theme-volantis/"
+            <a target="_blank" rel="noopener" href="https://github.com/binglinli"
               
               
-              active-action="action-https:githubcomvolantis-xhexo-theme-volantis">
-              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f9ec.svg'><p>源码</p>
+              active-action="action-https:githubcombinglinli">
+              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f9ec.svg'><p>代码仓库</p>
             </a>
           
         
@@ -2677,7 +2677,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <time itemprop="dateCreated datePublished" datetime="2013-12-24T23:30:09+08:00">2013-12-24</time>
         
           <span class="dot"></span>
-          <a class="category-link" href="/categories/book/">book</a><span class="sep"></span><a class="category-link" href="/categories/emacs/">emacs</a><span class="sep"></span><a class="category-link" href="/categories/javascript/">javascript</a><span class="sep"></span><a class="category-link" href="/categories/python/">python</a>
+          <a class="category-link" href="/categories/book/">book</a><span class="sep"></span><a class="category-link" href="/categories/book/investor/">investor</a><span class="sep"></span><a class="category-link" href="/categories/emacs/">emacs</a><span class="sep"></span><a class="category-link" href="/categories/git/">git</a><span class="sep"></span><a class="category-link" href="/categories/python/">python</a><span class="sep"></span><a class="category-link" href="/categories/shell/">shell</a><span class="sep"></span><a class="category-link" href="/categories/shell/bash/">bash</a><span class="sep"></span><a class="category-link" href="/categories/shell/bash/powershell/">powershell</a><span class="sep"></span><a class="category-link" href="/categories/web/">web</a><span class="sep"></span><a class="category-link" href="/categories/web/html/">html</a><span class="sep"></span><a class="category-link" href="/categories/web/html/css/">css</a><span class="sep"></span><a class="category-link" href="/categories/web/html/css/javascript/">javascript</a>
           
             <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
               <a href="/categories/emacs/" itemprop="url"><span itemprop="name">emacs</span></a>
@@ -2688,11 +2688,43 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             </span>
           
             <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/javascript/" itemprop="url"><span itemprop="name">javascript</span></a>
+              <a href="/categories/book/" itemprop="url"><span itemprop="name">book</span></a>
             </span>
           
             <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/book/" itemprop="url"><span itemprop="name">book</span></a>
+              <a href="/categories/book/investor/" itemprop="url"><span itemprop="name">investor</span></a>
+            </span>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/shell/" itemprop="url"><span itemprop="name">shell</span></a>
+            </span>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/shell/bash/" itemprop="url"><span itemprop="name">bash</span></a>
+            </span>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/shell/bash/powershell/" itemprop="url"><span itemprop="name">powershell</span></a>
+            </span>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/web/" itemprop="url"><span itemprop="name">web</span></a>
+            </span>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/web/html/" itemprop="url"><span itemprop="name">html</span></a>
+            </span>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/web/html/css/" itemprop="url"><span itemprop="name">css</span></a>
+            </span>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/web/html/css/javascript/" itemprop="url"><span itemprop="name">javascript</span></a>
+            </span>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/git/" itemprop="url"><span itemprop="name">git</span></a>
             </span>
           
         
@@ -3029,7 +3061,12 @@ Heading 1Heading 2Heading 3Headin...
           <li><a class="flat-box"
             title="/categories/book/" href="/categories/book/"
             active-action="action-categoriesbook"
-            ><div class='name'>book</div><div class='badge'>(2)</div></a></li>
+            ><div class='name'>book</div><div class='badge'>(3)</div></a></li>
+        
+          <li><a class="flat-box child"
+            title="/categories/book/investor/" href="/categories/book/investor/"
+            active-action="action-categoriesbookinvestor"
+            ><div class='name'>investor</div><div class='badge'>(3)</div></a></li>
         
           <li><a class="flat-box"
             title="/categories/emacs/" href="/categories/emacs/"
@@ -3037,14 +3074,49 @@ Heading 1Heading 2Heading 3Headin...
             ><div class='name'>emacs</div><div class='badge'>(2)</div></a></li>
         
           <li><a class="flat-box"
-            title="/categories/javascript/" href="/categories/javascript/"
-            active-action="action-categoriesjavascript"
-            ><div class='name'>javascript</div><div class='badge'>(1)</div></a></li>
+            title="/categories/git/" href="/categories/git/"
+            active-action="action-categoriesgit"
+            ><div class='name'>git</div><div class='badge'>(1)</div></a></li>
         
           <li><a class="flat-box"
             title="/categories/python/" href="/categories/python/"
             active-action="action-categoriespython"
             ><div class='name'>python</div><div class='badge'>(1)</div></a></li>
+        
+          <li><a class="flat-box"
+            title="/categories/shell/" href="/categories/shell/"
+            active-action="action-categoriesshell"
+            ><div class='name'>shell</div><div class='badge'>(1)</div></a></li>
+        
+          <li><a class="flat-box child"
+            title="/categories/shell/bash/" href="/categories/shell/bash/"
+            active-action="action-categoriesshellbash"
+            ><div class='name'>bash</div><div class='badge'>(1)</div></a></li>
+        
+          <li><a class="flat-box child"
+            title="/categories/shell/bash/powershell/" href="/categories/shell/bash/powershell/"
+            active-action="action-categoriesshellbashpowershell"
+            ><div class='name'>powershell</div><div class='badge'>(1)</div></a></li>
+        
+          <li><a class="flat-box"
+            title="/categories/web/" href="/categories/web/"
+            active-action="action-categoriesweb"
+            ><div class='name'>web</div><div class='badge'>(1)</div></a></li>
+        
+          <li><a class="flat-box child"
+            title="/categories/web/html/" href="/categories/web/html/"
+            active-action="action-categorieswebhtml"
+            ><div class='name'>html</div><div class='badge'>(1)</div></a></li>
+        
+          <li><a class="flat-box child"
+            title="/categories/web/html/css/" href="/categories/web/html/css/"
+            active-action="action-categorieswebhtmlcss"
+            ><div class='name'>css</div><div class='badge'>(1)</div></a></li>
+        
+          <li><a class="flat-box child"
+            title="/categories/web/html/css/javascript/" href="/categories/web/html/css/javascript/"
+            active-action="action-categorieswebhtmlcssjavascript"
+            ><div class='name'>javascript</div><div class='badge'>(1)</div></a></li>
         
       </ul>
     </div>
@@ -3069,7 +3141,7 @@ Heading 1Heading 2Heading 3Headin...
 
 
     <div class='content'>
-      <a href="/tags/Bar/" style="font-size: 24px; color: #555">Bar</a> <a href="/tags/Baz/" style="font-size: 14px; color: #999">Baz</a> <a href="/tags/Foo/" style="font-size: 24px; color: #555">Foo</a> <a href="/tags/book/" style="font-size: 14px; color: #999">book</a> <a href="/tags/emacs/" style="font-size: 14px; color: #999">emacs</a>
+      <a href="/tags/Bar/" style="font-size: 24px; color: #555">Bar</a> <a href="/tags/Baz/" style="font-size: 14px; color: #999">Baz</a> <a href="/tags/Foo/" style="font-size: 24px; color: #555">Foo</a> <a href="/tags/book/" style="font-size: 24px; color: #555">book</a> <a href="/tags/emacs/" style="font-size: 14px; color: #999">emacs</a> <a href="/tags/investor/" style="font-size: 24px; color: #555">investor</a>
     </div>
   </section>
 
@@ -3128,14 +3200,14 @@ Heading 1Heading 2Heading 3Headin...
     // header
     var l_header=document.getElementById("l_header");
     
-    l_header.classList.remove("show");
+    l_header.classList.add("show");
     
     
       // cover
       var cover_wrapper=document.querySelector('#l_cover .cover-wrapper');
       var scroll_down=document.getElementById('scroll-down');
-      cover_wrapper.id="half";
-      cover_wrapper.style.display="";
+      cover_wrapper.id="none";
+      cover_wrapper.style.display="none";
       scroll_down.style.display="none";
     
   
@@ -3838,7 +3910,7 @@ Heading 1Heading 2Heading 3Headin...
 
 
   <script>
-  let imgs = ["https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/016.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/033.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/025.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/005.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/002.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/051.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/004.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/046.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/001.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/052.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/054.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/056.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/034.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/039.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/042.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/012.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/038.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/035.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/006.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/003.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/019.webp"];
+  let imgs = ["https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/052.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/054.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/012.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/046.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/025.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/004.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/035.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/056.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/005.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/034.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/038.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/033.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/042.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/051.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/001.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/002.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/016.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/006.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/019.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/039.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/003.webp"];
   let index = 0;
   let IntervalParallax = null;
 
